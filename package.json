@@ -1,0 +1,38 @@
+{
+  "name": "archivist",
+  "version": "0.0.1",
+  "description": "A set of tools for archiving data and websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "archivist": "./bin/archivist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/striblab/archivist.git"
+  },
+  "keywords": [
+    "data",
+    "archiving"
+  ],
+  "author": "Alan Palazzolo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/striblab/archivist/issues"
+  },
+  "homepage": "https://github.com/striblab/archivist#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "commander": "^2.10.0",
+    "gulp-awspublish": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "lodash": "^4.17.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-fs": "^2.4.4",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

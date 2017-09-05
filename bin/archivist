@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+/**
+ * Main command line utility for archivist.
+ */
